@@ -5,7 +5,7 @@
 #include <netinet/in.h>
 #include <unistd.h>
 
-const int PORT = 12345;
+const int PORT = 8080;
 const std::string RESPONSE = "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\nContent-Length: 13\r\nConnection: close\r\n\r\nHello, World!\n";
 
 void handle_client(int client_socket) {
